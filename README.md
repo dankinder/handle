@@ -1,7 +1,8 @@
 # handle
 
-Handle go(golang) errors in scripts with an easy one-liner. Package handle
-provides a dead-simple function to panic on error.
+Handle go(golang) errors in simple scripts with an easy one-liner. Package handle
+provides a dead-simple function to panic on error. *Not* for use in production
+software where the typical method of check `if err != nil` is the right thing to do.
 
 Writing Go involves many error checks:
 
